@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<style>
+.container{
+    background-color: rgb(202, 233, 26);
+    height: 100vh;
+    border: 4px solid rgba(32, 33, 31, 0.797);
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px 30px;
+}
+.container div{
+    background-color: rgb(21, 164, 208);
+    padding: 10px;
+    border: 4px solid;
+    text-align: center;
+    font-family:sans-serif
+}
+.item1{
+    grid-column: 1/4;
+}
+.item2{
+    grid-row: 2/4;
+}
+.item3{
+    grid-column: 2/4;
+}
+.item6{
+    grid-column: 1/4;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="item1" style="background: linear-gradient(45deg, #8e2de2, #a584e6cf);">header</div>
+        <div class="item2" style="background: linear-gradient(45deg, #11998e, #38ef7eb5);">sidebar</div>
+        <div class="item3" style="background: linear-gradient(45deg, #2193b0, #6dd5ed);">content1</div>
+        <div class="item4" style="background: linear-gradient(45deg, #2193b0, #6dd5ed);">content2</div>
+        <div class="item5" style="background: linear-gradient(45deg, #2193b0, #6dd5ed);">content3</div>
+        <div class="item6" style="background: linear-gradient(45deg, #8e2de2, #4a00e0);">footer</div>
+    </div>
+</body>
+</html>

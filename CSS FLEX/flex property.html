@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flex</title>
+</head>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5c4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 90%;
+        }
+
+        .flex {
+            background-color: rgba(255, 255, 255, 0.877);
+            border-radius: 8px;
+            padding: 20px;
+            width: 32%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .flex img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        .one{
+            display: flex;
+            gap: 10px;
+        }
+        .flex h3 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .flex p {
+            font-size: 14px;
+            color: #666666cb;
+            flex-grow: 1;
+        }
+
+        .flex .installed {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #999999c3;
+        }
+
+        .flex a {
+            color: #0ecae7d6;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .flex a:hover {
+            text-decoration:underline;
+            cursor: grabbing;
+        }
+    </style>
+</style>
+<body>
+    <div class="main">
+        <div class="flex">
+            <div class="one">
+            <img src="https://yt3.googleusercontent.com/ytc/AIdro_kpsrLXVvMrdo11-gl4huYX1M0GJu10egvbp0I_gKR7E4Y=s900-c-k-c0x00ffffff-no-rj" alt="Stripe">
+            <div>
+            <div><h3>Stripe</h3></div>
+            <p>Payment Services</p>
+            <div style="color: green; font-size: 30px;">&bigstar; &bigstar; &bigstar; &bigstar;</div>
+            </div>
+            </div>
+            <p>Get more context on your users with stripe data inside our platform.</p>
+            <div class="installed">Installed 172 times </div>
+            <a href="https://en.wikipedia.org/wiki/Stripe,_Inc.">View ›</a>
+        </div>
+        <div class="flex">
+            <div class="one">
+            <img src="https://clipartcraft.com/images/mailchimp-logo-icon-2.png" alt="Mailchimp">
+            <div>
+            <div><h3>Mailchimp</h3></div>
+            <p>Project Management</p>
+            <div style="color: green; font-size: 30px;">&bigstar; &bigstar; &bigstar; &bigstar;</div>
+            </div>
+            </div>
+            <p>Capture and sync subscribers from your Mailchimp platform to ours with ease.</p>
+            <div class="installed">Installed 1234 times</div>
+            <a href="https://en.wikipedia.org/wiki/Mailchimp">View ›</a>
+        </div>
+        <div class="flex">
+            <div class="one">
+            <img src="https://th.bing.com/th/id/OIP.PEoGfeBvYhlOwydUIFkpWAHaG4?rs=1&pid=ImgDetMain" alt="Dropbox">
+            <div>
+            <div><h3>Dropbox</h3></div>
+            <p> File Management</p>
+            <div style="color: green; font-size: 30px;">&bigstar; &bigstar; &bigstar; &bigstar;</div>
+            </div>
+            </div>
+            <p>Use Dropbox to sync your photos to our platform and share it with others.</p>
+            <div class="installed">Installed 1234 times</div>
+            <a href="https://en.wikipedia.org/wiki/Dropbox">View ›</a>
+        </div>
+        <div class="flex">
+            <div class="one">
+            <img src="https://logosmarcas.net/wp-content/uploads/2020/11/Shopify-Emblema.png" alt="Shopify">
+            <div>
+            <div><h3>Shopify</h3></div>
+            <p>Ecommerece</p>
+            <div style="color: green; font-size: 30px;">&bigstar; &bigstar; &bigstar; &bigstar;</div>
+            </div>
+            </div>
+            <p>Sell your items with ease with having any website with our free platform.</p>
+            <div class="installed">Installed 1234 times</div>
+            <a href="https://en.wikipedia.org/wiki/Shopify">View ›</a>
+        </div>
+        <div class="flex">
+            <div class="one">
+            <img src="https://th.bing.com/th/id/OIP.SBxKrmDcYMOtq0yDQUe9MQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Atlassian">
+            <div>
+            <div><h3>Atlassian</h3></div>
+            <p>Project  Management</p>
+            <div style="color: green; font-size: 30px;">&bigstar; &bigstar; &bigstar; &bigstar;</div>
+            </div>
+            </div>
+            <p>Developing products for developers, project managers, and architects.</p>
+            <div class="installed">Installed 345 times</div>
+            <a href="https://en.wikipedia.org/wiki/Atlassian">View ›</a>
+        </div>
+        <div class="flex">
+            <div class="one">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/768px-Salesforce.com_logo.svg.png" alt="Salesforce">
+            <div>
+            <div><h3>Salesforce</h3></div>
+            <p>Project Management</p>
+            <div style="color: green; font-size: 30px;">&bigstar; &bigstar; &bigstar; &bigstar;</div>
+            </div>
+            </div>
+            <p>Developing products for developers, project managers, and architects.</p>
+            <div class="installed">Installed 345 times</div>
+            <a href="https://en.wikipedia.org/wiki/Salesforce">View ›</a>
+        </div>    
+    </div>
+</body>
+</html>

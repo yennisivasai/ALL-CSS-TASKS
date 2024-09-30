@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .hero{
+      height: 100vh;
+      width: 100%;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/brarchi.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 40px;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 4%;
+      background-color: rgb(25, 75, 75);
+    }
+   nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+   }
+   nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+   }
+   .logo{
+    color: whitesmoke;
+   }
+   nav ul li a:hover{
+    color: #ea1538;
+    transition: all 0.5s;
+    text-decoration: underline;
+   }
+   div img{
+    width: 400px;
+    height: 250px;
+   }
+   .img1,.img2,.img3{
+    background-image: url(./sustainable-houses-2.jpg);
+    height: 350px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    font-weight: 400;
+    text-align: center;
+    align-content: center;
+   }
+   #brhead{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: bold;
+    filter: drop-shadow(30px 10px 2px rgb(221, 181, 1));
+   }
+   .mainimg{
+    display: flex;
+    justify-content: space-between;
+   }
+   .container1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   }
+   .container2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   }
+   .content1{
+    position: relative;
+    font-size: 28px;
+    top: 30px;
+    left: 0;
+   }
+   .content2{
+   position: relative;
+   font-size: 28px;
+   top:30px;
+   left:0;
+   }
+   .content3{
+    position: relative;
+   font-size: 28px;
+   top:30px;
+   left:0;
+   }
+   .ttlcon{
+    background-color:lightblue
+   }
+   img{
+    border-radius: 10px;
+   }
+   .container3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+   }
+  
+   .imgcon{
+    width: 360px;
+   }
+  </style>
+</head>
+<body>
+ 
+  <div class="hero">
+    <nav>
+      <h2 class="logo">Br Architecture</h2>
+      <ul>
+     <li><a href="#">HOME</a></li>
+     <li><a href="#">ABOUT</a></li>
+     <li><a href="#">PROJECTS</a></li>
+     <li><a href="#">SOCIAL</a></li>
+     <li><a href="#">NEWS</a></li>
+     <li><a href="#">CONTACT</a></li>
+     </ul>
+  </nav>
+  <div style="background-color:darkcyan;color: aliceblue;text-align:center ;">
+    <h2>PROJECTS</h2></div>
+    <h1 id="brhead">Br Architecture</h1>
+  </div>
+
+  <div class="ttlcon">
+  <div class="container1">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="content1">Summer House</div>
+        <img src="summerhouse.jpg" alt="House" style="width:100%">
+      </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="content2">Brick House</div>
+        <img src="brick.jpg" alt="House" style="width:100%">
+      </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="content3">Renovated</div>
+        <img src="renovated.jpg" alt="House" style="width:100%">
+      </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div style="position: relative;font-size: 28px;top:30px;left:0;">Barn House</div>
+        <img src="barnhouse.jpg" alt="House" style="width:100%">
+      </div>
+  </div>
+
+  <div class="container2">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div style="position: relative;font-size: 28px;top:30px;left:0;">Summer House</div>
+        <img src="barnhouse.jpg" alt="House" style="width:99%">
+      </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div style="position: relative;font-size: 28px;top:30px;left:0;">Brick House</div>
+        <img src="renovated.jpg" alt="House" style="width:99%">
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div style="position: relative;font-size: 28px;top:30px;left:0;">Renovated</div>
+        <img src="brick.jpg" alt="House" style="width:99%">
+      </div>
+  
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div style="position: relative;font-size: 28px;top:30px;left:0;">Barn House</div>
+        <img src="summerhouse.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    </div>
+    <div><br><br>
+      <h1>About</h1><br><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="container3">
+      <div class="imgcon">
+      <img src="johndoe.jpg" alt="">
+      <h1>John Doe</h1><br>
+      <h2>CEO & FOUNDER</h2><br>
+      <strong style="color: rgba(0, 0, 0, 0.745);">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellent  esque elementum.</strong>
+      </div>
+
+      <div class="imgcon">
+        <img src="janedoe.jpg" alt="">
+        <h1>Jane Doe</h1><br>
+        <h2 style="color: rgba(0, 0, 0, 0.978);">Architect</h2><br>
+        <strong>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</strong>
+        </div>
+
+        <div class="imgcon">
+          <img src="mikeross.jpg" alt="">
+          <h1>Mike Ross</h1><br>
+          <h2>Architect</h2><br>
+          <strong>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</strong>
+          </div>
+
+          <div class="imgcon">
+            <img src="danstar.jpg" alt="">
+            <h1>Dane Star</h1><br>
+            <h2>Architect</h2><br>
+            <strong>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</strong>
+            </div>
+    </div>
+</body>
+</html>

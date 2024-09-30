@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> button </title>
+</head>
+<style>
+   body {
+    margin: 0;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+}
+
+.main-button {
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #575757;
+}
+
+.XML{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+
+}
+
+.XML a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.XML a:hover {
+    background-color: #0d9bd8d3;
+
+}
+.button:hover .XML {
+    display: block;
+}
+</style>
+<body>
+    <center>
+    <img src="https://seeklogo.com/images/X/xml-logo-58BFD10607-seeklogo.com.png" alt="" height="400px" width="400px">
+    <h1 style="color: skyblue;">To Know breif about XML Click on the button </h1>
+    <div class="button">
+        <button class="main">XML</button>
+        <div class="XML">
+            <a href="https://www.w3schools.com/xml/default.asp">Home</a>
+            <a href="https://www.w3schools.com/xml/xml_usedfor.asp">Introduction</a>
+            <a href="https://www.w3schools.com/xml/xml_elements.asp">Overview</a>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
